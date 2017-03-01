@@ -1,4 +1,4 @@
-#HTML, CSS, JavaScript
+#Javascript
 
 Naast HTML en CSS begrijpt je browser **Javascript**.
 Je kan het aan elke webpagina toevoegen via de `<script>` tag.
