@@ -9,7 +9,9 @@ var achternaam = prompt('Hoi! Wat is jouw achternaam?');
 
 Als het goed is verschijnt er na het ingeven van deze regel een popup met de vraag om je achternaam. Vul deze in en druk OK.
 Wat je net invoert is nu opgeslagen, en kun je oproepen door naar *achternaam* te verwijzen. Als je `achternaam` ingeeft, zul je je achternaam terugkrijgen.
-Je hebt nu iets opgeslagen in een *variabele*
+Je hebt nu iets opgeslagen in een *variabele*.
+
+## Variabelen
 
 We slaan data op in *variabelen* (**variables**).
 
@@ -63,13 +65,12 @@ Dit alles in een *script* element:
 </script>
 ```
 
+------------ 
 ## Opgaves
 
-Q1.01) Wat gebeurt er als je twee strings probeert op te tellen?
-
-Q1.02) Wat gebeurt er als je een getal en een string probeert op te tellen?
-
-Q1.03) Wat gebeurt er als je twee string probeert te vermenigvuldigen?
+1. Wat gebeurt er als je twee *string*s probeert op te tellen?
+2. Wat gebeurt er als je een *number* en een *string* probeert op te tellen?
+3. Wat gebeurt er als je twee *string*s probeert te vermenigvuldigen?
 
 
 
