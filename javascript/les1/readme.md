@@ -1,23 +1,37 @@
-# Javascript Les 01 - Opslaan van data
-Het opslaan van data voor later gebruik is een van de meest belangrijke dingen in programmeren.
+# Javascript les 1 <br>Opslaan van data
+Programmeren is niets anders dan het verwerken van data (gegevens), van een input naar een andere output. Bijvoorbeeld:
 
-### Een kort voorbeeld
-In de *Console* typ het volgende:
-```
+| Input | Output |
+---|---
+Een ingevuld formulier | Gegevens opslaan in een database
+Drukken op de spatie | Springen van Super Mario
+Een Google zoekterm | Bijbehorende zoekresultaten tonen
+
+Het opslaan van data (gegevens) voor later gebruik is een van de belangrijkste dingen in programmeren.
+
+>We leren eerst hoe we data opslaan in het geheugen van de browser. Dit vergeet de computer meteen als we de browser sluiten. In latere hoofdstukken leren we hoe we gegevens permanent opslaan: in een bestand en vervolgens een database.
+
+### Een eerste voorbeeld
+Open de [*Javascript Console*](../#console) en typ het volgende:
+```javascript
 var achternaam = prompt('Hoi! Wat is jouw achternaam?');
 ```
 
-Als het goed is verschijnt er na het ingeven van deze regel een popup met de vraag om je achternaam. Vul deze in en druk OK.
-Wat je net invoert is nu opgeslagen, en kun je oproepen door naar *achternaam* te verwijzen. Als je `achternaam` ingeeft, zul je je achternaam terugkrijgen.
-Je hebt nu iets opgeslagen in een *variabele*.
+Na het ingeven van deze regel verschijnt er een popup met de vraag om je achternaam. Vul deze in en druk OK.
 
-## Variabelen
+Wat je net ingevoerd hebt is opgeslagen in het geheugen, en kun je oproepen door naar *achternaam* te vragen. Als je `achternaam` ingeeft in de Console, zul je je achternaam terugkrijgen.
 
-We slaan data op in *variabelen* (**variables**).
+Goed gedaan! Je hebt nu iets opgeslagen in een *variabele*.
 
-Zie een variabele als een doos met een label erop, zodat je deze makkelijk terugvindt. 
+### Variabelen
 
-Zo maken we een variabele gelabeled *name*:
+We slaan data op in een *variabele* (**variable**). 
+
+Zie een variabele als een doos met een label erop, zodat je deze makkelijk terugvindt. Of vergelijk het met een *nickname*.
+
+Deze nickname mag je zelf verzinnen. Het is handig als deze aangeeft welke waarde erbij hoort. 
+
+Zo maken we een variabele gelabeled *voornaam*:
 ```javascript
 var voornaam;
 ```
@@ -33,7 +47,8 @@ voornaam = "Jan";
 ```
 
 Hier heb jeeen variebele *name* gedeclareerd en vervolgens de waarde *"Jan"* toegekend (*assigned*). 
-"Jan" is een *string*. Een *string* is omringd door dubbele quotes (") of enkele quotes ('). Door deze quotes snapt de browser dat deze letters bij elkaar horen, en geen commando zijn maar een *waarde*.
+
+> "Jan" is een **string**. Een *string* is omringd door dubbele quotes (") of enkele quotes ('). Door deze quotes snapt de browser dat deze letters bij elkaar horen, en geen commando zijn maar een *waarde*.
 
 Je kunt ook in 1 regel een variabele aanmaken en een initiele waarde meegeven:
 ```javascript
@@ -43,7 +58,7 @@ var leeftijd = 21; // let op: geen quotes!
 
 *N.B. Alles achter // wordt genegeerd door de browser en is dus handig om commentaar toe te voegen voor jezelf of andere mensen*
 
-Zie dat er om getallen geen quotes staan. Je browser snapt wat getallen zijn, en kan er ook wiskunde op toepassen:
+De waarde die toekennen aan de *leeftijd* variabele staat niet tussen quotes. Je browser snapt wat getallen zijn. Hierdoor kun je er ook wiskunde op toepassen:
 
 ```javascript
 var leeftijd = 21;
@@ -64,13 +79,14 @@ Dit alles in een *script* element:
     console.log(voornaam);
 </script>
 ```
-
+In de Console is nu *Jan* geschreven.
 ------------ 
 ## Opgaves
 
 1. Wat gebeurt er als je twee *string*s probeert op te tellen?
 2. Wat gebeurt er als je een *number* en een *string* probeert op te tellen?
 3. Wat gebeurt er als je twee *string*s probeert te vermenigvuldigen?
+
 
 
 

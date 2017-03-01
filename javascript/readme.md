@@ -38,11 +38,12 @@ De volgende code laadt de code uit het bestand `script.js` (in dezelfde map als 
 <script src="script.js"></script>
 ```
 
-## De Javascript Console
+## <a name="console"></a>De Javascript Console
 
-Je kunt javascript direct invoeren in je browser via de *Console*. Open je *Developer Tools* en klik op het *Console* tab 
-Je komt er in Chrome via het menu: *View > Developer > Javascript Console*)
-Of klik met je rechtermuisknop op een element op de pagina en klik op "Inspect Element". Vind hier het *Console* tabje.
+Je kunt javascript direct invoeren in je browser via de *Javascript Console*. 
+Deze Console vindt je in Chrome via *CTRL+SHIFT+J* (Mac: *CMD+ALT+J*), of door via de menu opties: *View > Developer > Javascript Console*.
+
+Een derde manier: klik met je rechtermuisknop op een element op de pagina en klik op "Inspect Element". Je zit nu in de *Elements* tab. Klik hier op de *Console* tab.
 
 ![Image of Console](https://developers.google.com/web/tools/chrome-devtools/console/images/console-panel.png)
 
