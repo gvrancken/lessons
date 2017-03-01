@@ -1,4 +1,4 @@
-## Les 1 - opslaan van data
+# Javascript Les 01 - Opslaan van data
 Het opslaan van data voor later gebruik is een van de meest belangrijke dingen in programmeren.
 
 ### Een kort voorbeeld
@@ -50,7 +50,7 @@ var dubbeleLeeftijd = 21 * 2;
 
 check in je *Console* wat er in de doos *dubbeleLeeftijd* zit.
 
-*N.B. *
+Variabeles kunnen dus gebruikt worden om *String*s en *Number*s op te slaan.
 
 Om in je script aan de browser te vragen wat de inhoud is van een variabele, typ je `console.log(name);`. Dit logt (*schrijft*) de inhoud van de doos *name* naar de *Console* 
 
