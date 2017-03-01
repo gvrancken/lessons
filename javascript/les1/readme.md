@@ -69,7 +69,24 @@ voornaam = "Jan";
 Hier heb jeeen variebele *name* gedeclareerd en vervolgens de waarde *"Jan"* toegekend (*assigned*). 
 "Jan" is een *string*. Een *string* is omringd door dubbele quotes (") of enkele quotes ('). Door deze quotes snapt de browser dat deze letters bij elkaar horen, en geen commando zijn maar een *waarde*.
 
-Je kunt vanaf nu de variabele *name* opvragen, en de browser zal je de inhoud ervan teruggeven. 
+Je kunt ook in 1 regel een variabele aanmaken en een initiele waarde meegeven:
+```javascript
+var voornaam = "Jan"; // dit is het vorige voorbeeld in 1 regel
+var leeftijd = 21; // let op: geen quotes!
+```
+
+*N.B. Alles achter // wordt genegeerd door de browser en is dus handig om commentaar toe te voegen voor jezelf of andere mensen*
+
+Zie dat er om getallen geen quotes staan. Je browser snapt wat getallen zijn, en kan er ook wiskunde op toepassen:
+
+```javascript
+var leeftijd = 21;
+var dubbeleLeeftijd = 21 * 2;
+```
+
+check in je *Console* wat er in de doos *dubbeleLeeftijd* zit.
+
+*N.B. *
 
 Om in je script aan de browser te vragen wat de inhoud is van een variabele, typ je `console.log(name);`. Dit logt (*schrijft*) de inhoud van de doos *name* naar de *Console* 
 
@@ -77,20 +94,19 @@ Dit alles in een *script* element:
 
 ```javascript
 <script>
-    var voornaam;
-    voornaam = "Jan";
+    var voornaam = "Jan";
     console.log(voornaam);
 </script>
 ```
 
-Gecombineerd met het voorbeeld uit het begin van deze les, kunnen we dit programma schrijven:
+## Opgaves
 
-```javascript
-<script>
-    var voornaam;
-    voornaam = prompt("Wat is je voornaam?");
-    console.log(voornaam);
-</script>
-``` 
+Q1.01) Wat gebeurt er als je twee strings probeert op te tellen?
+
+Q1.02) Wat gebeurt er als je een getal en een string probeert op te tellen?
+
+Q1.03) Wat gebeurt er als je twee string probeert te vermenigvuldigen?
+
+
 
 
