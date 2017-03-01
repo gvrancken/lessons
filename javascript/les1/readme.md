@@ -46,7 +46,9 @@ var voornaam;
 voornaam = "Jan";
 ```
 
-Hier heb jeeen variebele *name* gedeclareerd en vervolgens de waarde *"Jan"* toegekend (*assigned*). 
+> N.B. In de console kun je regel na regel invoeren, of met SHIFT + ENTER meteen de volgende regel invoeren.
+
+Hier heb je een variabele *voornaam* gedeclareerd en vervolgens de waarde *"Jan"* toegekend (*assigned*). Je kunt deze variabele ook weer opvragen in de Console door `voornaam` in te voeren.
 
 > "Jan" is een **string**. Een *string* is omringd door dubbele quotes (") of enkele quotes ('). Door deze quotes snapt de browser dat deze letters bij elkaar horen, en geen commando zijn maar een *waarde*.
 
