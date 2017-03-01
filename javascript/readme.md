@@ -38,14 +38,9 @@ De volgende code laadt de code uit het bestand `script.js` (in dezelfde map als 
 <script src="script.js"></script>
 ```
 
-## <a name="console"></a>De Javascript Console
-
 Je kunt javascript direct invoeren in je browser via de *Javascript Console*. 
-Deze Console vindt je in Chrome via *CTRL+SHIFT+J* (Mac: *CMD+ALT+J*), of door via de menu opties: *View > Developer > Javascript Console*.
 
-Een derde manier: klik met je rechtermuisknop op een element op de pagina en klik op "Inspect Element". Je zit nu in de *Elements* tab. Klik hier op de *Console* tab.
 
-![Image of Console](https://developers.google.com/web/tools/chrome-devtools/console/images/console-panel.png)
 
 Typ `alert("Hello world")` in de console regel en druk op Enter. Als het goed is zie het alert window met deze boodschap.
 
@@ -57,6 +52,26 @@ Elk commando typ je op een regel, in volgorde, onder elkaar.
 Na het lezen (*interpreteren*) van een regel probeert hij deze uit te voeren.
 Wanneer hij iets niet begrijpt zal hij proberen dit zo duidelijk mogelijk te communiceren wat hij niet begreep. 
 De browser praat met jou over javascript via de *Console*.
+
+# Veelgestelde vragen
+> **<a name="console"></a>Waar vind ik de Javascript Console?**
+
+Enkele manieren om de Javascript Console te openen:
+
+* Manier 1. Via een van onderstaande sneltoetsen:
+``` 
+Chrome Windows:     CTRL + SHIFT + J
+Chrome Mac:         CMD + ALT + J
+Firefox Windows:    CTRL + SHIFT + K
+Firefox Mac:        CMD + ALT + K
+IE:                 F12, klik dan op de Console tab
+```
+
+* Manier 2. Via het menu kom je er ook, in Chrome is dit bijv: *View / Developer / Javascript Console*
+
+* Manier 3. Een derde manier: klik met je rechtermuisknop op een element op de pagina en klik op "Inspect Element". Je zit nu in de *Elements* tab. Klik hier op de *Console* tab.
+
+![Image of Console](https://developers.google.com/web/tools/chrome-devtools/console/images/console-panel.png)
 
 # Handige bronnen
 
