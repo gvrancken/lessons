@@ -81,7 +81,9 @@ Dit alles in een *script* element:
     console.log(voornaam);
 </script>
 ```
+
 In de Console is nu *Jan* geschreven.
+
 ------------ 
 ## Opgaves
 
