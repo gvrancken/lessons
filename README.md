@@ -6,4 +6,4 @@ Kijk bij de *Examples* voor toegepaste voorbeelden.
 
 ## Downloaden lesmateriaal
 
-Download de hele map met de **Clone or download** knop, en kies voor **Download zip...**
+[Download hier de zip](https://github.com/ziccidus/lessons/archive/master.zip).
