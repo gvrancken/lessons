@@ -1,4 +1,4 @@
-# Javascript les 1 <br>Opslaan van data
+# Javascript les 1 <br>Opslaan van data (in het geheugen)
 Programmeren is niets anders dan het verwerken van data (gegevens), van een input naar een andere output. Bijvoorbeeld:
 
 | Input | Output |
