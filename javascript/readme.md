@@ -76,5 +76,6 @@ IE:                 F12, klik dan op de Console tab
 # Handige bronnen
 
 * http://htmldog.com/guides/javascript/beginner/
+* http://javascript-roadtrip.codeschool.com/levels/1/challenges/2
 
 

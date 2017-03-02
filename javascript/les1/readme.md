@@ -60,7 +60,7 @@ var leeftijd = 21; // let op: geen quotes!
 
 *N.B. Alles achter // wordt genegeerd door de browser en is dus handig om commentaar toe te voegen voor jezelf of andere mensen*
 
-De waarde die toekennen aan de *leeftijd* variabele staat niet tussen quotes. Je browser snapt wat getallen zijn. Hierdoor kun je er ook wiskunde op toepassen:
+De waarde die toekennen aan de *leeftijd* variabele staat niet tussen quotes. Javascript snapt wat getallen zijn. Hierdoor kun je er ook wiskunde op toepassen:
 
 ```javascript
 var leeftijd = 21;
@@ -68,6 +68,8 @@ var dubbeleLeeftijd = 21 * 2;
 ```
 
 check in je *Console* wat er in de doos *dubbeleLeeftijd* zit.
+
+>Probeer dit hier verder uit: (http://javascript-roadtrip.codeschool.com/levels/1/challenges/2)
 
 Variabeles kunnen dus gebruikt worden om *String*s en *Number*s op te slaan.
 
