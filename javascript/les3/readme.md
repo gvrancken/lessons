@@ -28,6 +28,29 @@ Argumenten geef je aan een functie mee tussen haakjes `()`.
 >De naam van de functie is eigenlijk de *variable* naam; het label van de doos.
 In deze doos zit nu een uitvoerbaar stukje code, i.p.v. een platte waarde. De boogjes `()` geven aan de interpreter door dat de variabele die we net noemden een uitvoerbaar stukje code is, dat we nu willen uitvoeren. Als we de boogjes weg zouden laten, vragen we alleen de waarde van de variabele op (en dat is de functie zelf). 
 
+### Hoe maken we een functie?
+
+```
+var telOp = function (a, b) {
+    return a + b;
+};
+```
+
+We *declareren* een variabele `telOp` en stoppen hier een functie in.
+Deze functie verwacht twee argumenten: `a` en `b`. 
+De functie geeft het resultaat van `a + b` terug.
+
+We kunnen deze functie nu alsvolgt oproepen:
+```
+var resultaat = telOp(4, 7);
+```
+
+Wat deze regel doet:
+1. Roep de functie op in de variabele `telOp` (= roep de `telOp` functie)
+2. Vervang diens functie-argumenten `a` en `b` met resp. de getallen `4` en `7`
+3. Geef het resultaat van `4 + 7` terug
+4. Sla deze waarde op in de variabele `resultaat`.
+
 ### Wanneer gebruiken we een functie?
 
 1. Wanneer je iets herhaardelijk tegenkomt op verschillende plekken wil je optillen naar een hoger niveau, abstraheren.
