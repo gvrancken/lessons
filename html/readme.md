@@ -24,8 +24,6 @@ Een voorbeeld van een HTML-pagina:
 </html>
 ```
 
-> Kopieer & plak deze code in een tekstbestand. Sla het op als `voorbeeld.html` en open het in je browser.
-
 * `!DOCTYPE` laat de browser weten dat het HTML5 (nieuwste versie) betreft.
 * in de `head` staat de meta-content over de pagina
 * in de `body` staat het visuele deel van de pagina
@@ -33,7 +31,20 @@ Een voorbeeld van een HTML-pagina:
 HTML-elementen zijn omsloten door een opening-tag en een closing-tag:
 `<h1>Dit is een header</h1>`
 
+
+**Opgave 1** <br>
+Kopieer & plak deze code in een tekstbestand. Sla het op als `voorbeeld.html` en open het in je browser.
+
+
 [Klik hier om zelf HTML te proberen](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default)
+
+* Zet alles in een tag, broodtekst in `<p>`.
+* Hyperlinks
+* Images
+* `<div>` als ongedefinieerd blok (voor nauwkeurigere structuur)
+
+
+
 
 # Handige bronnen
 
