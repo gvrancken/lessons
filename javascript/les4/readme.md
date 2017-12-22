@@ -2,7 +2,22 @@
 
 ## Objects
 
-Objects are combinations of properties and abilities and are used to represent real life objects. Javascript uses variables and functions to construct objects.
+Have a look at this example code:
+
+```javascript
+var pencilColor = "blue"
+var pencilIsSharp = false
+var sharpenPencil = function () {
+   pencilIsSharp = true  
+}
+var IsPencilSharp = function() {
+   return pencilIsSharp
+}
+```
+
+We use many global variables to describe a certain object.
+To organise this data, we can put all these variables inside a 'pencil' object.
+Javascript uses variables and functions to construct objects.
 
 ```JavaScript
 var <object_name> = {
@@ -13,12 +28,10 @@ var <object_name> = {
 }; 
 ```
 
-Let's represent a colored pencil with an object.
-
 In our example, we will focus on color and sharpness properties and the ability to sharpen.
 
 ```javascript
-var pencil_1 = {
+var pencil = {
     color: "blue",
     sharp: false,
     sharpen: function () {
@@ -30,34 +43,28 @@ var pencil_1 = {
 };  
 ```
 
-
-
-We've just created an object called pencil_1 representing a blue pencil which is currently blunt (not sharp).
-
+We've just created an object called `pencil` representing a blue pencil which is currently blunt (not sharp).
 
 
 ```javascript
-pencil_1.isSharp();
+pencil.isSharp();
 ```
 
 > false
 
 
-
-We can sharpen the pencil by invoking it's **sharpen()** function.
+We can sharpen the pencil by invoking it's `sharpen()` function.
 
 
 
 ```javascript
-pencil_1.sharpen();
+pencil.sharpen();
 ```
-
-
 
 Checking sharpness of the pen will yield different value now.
 
 ```javascript
-pencil_1.isSharp();
+pencil.isSharp();
 ```
 
 > true
