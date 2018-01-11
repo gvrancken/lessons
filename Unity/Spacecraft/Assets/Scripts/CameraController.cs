@@ -16,7 +16,6 @@ public class CameraController : MonoBehaviour {
         float AxisHor = Input.GetAxis("Cam_Horizontal");
         float axisVer = Input.GetAxis("Cam_Vertical");
 
-        Debug.Log(transform.localEulerAngles.x + " " + axisVer);
         if (transform.localEulerAngles.x > 300f && transform.localEulerAngles.x < 325f && axisVer < 0f)
         {
             axisVer = 0;
