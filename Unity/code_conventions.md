@@ -45,7 +45,7 @@ Don't keep data around longer than it needs to be.
 
 * Use tabs that equal 4 spaces.
 
-* Use typically trailing braces everywhere (if, else, functions, structures, typedefs, class definitions, etc.)
+* Use typically trailing braces everywhere (if, else, functions, structs, class definitions, etc.)
 ```csharp
 if ( x ) {
 }
@@ -111,20 +111,19 @@ float maxDistanceFromPlane;
 struct renderEntity_t;
 ```
 
-* Instance properties start with "_m"
+* Private instance properties start with "m_".
 ```csharp
 class Game
 {
-    public int m_radius = 5;
-
+    public  int     radius     = 5; // suggestion for editor
+    private Vector3 m_ballPos;
+    
     void Start() 
     {
-
+	m_ballPos = transform.position;
     }
 }
 ```
-
-
 
 * Enum names use the same naming convention as variables, however they always end with  "_t". 
 The enum constants use all upper case characters. Multiple words are separated with an underscore.
@@ -201,7 +200,7 @@ Anim = GetAnimByIndex(0);
 
 ### Include experts in all fields
 "Finally, it cannot be overstated how important the Architects were in the process. For the Glass Factory in particular, they provided very precise assembly details for the wood structure, weight distribution, roof design , doors, etc. It would have been impossible, even with a lot of research on our side, to arrive at this level of detail. Looking back at all my previous projects, I cringe at how bad the architecture was. And the same applies to costume and character design. Game developers should always try when possible to consult with specialists in the areas they are trying to work in! "
-- Luis, The Witness
+- Luis Antonio, Artist on The Witness
 http://www.artofluis.com/3d-work/the-art-of-the-witness/soon-symmetry-island-and-glass-factory/
 
 
