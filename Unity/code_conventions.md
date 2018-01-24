@@ -1,6 +1,6 @@
 # Code Conventions
 
-Mostly based on Doom3 code conventions:
+Mostly based on idsoftware's Doom3 code conventions:
 * http://kotaku.com/5975610/the-exceptional-beauty-of-doom-3s-source-code
 
 Other good reads on healthy coding habits:
