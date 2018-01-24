@@ -164,10 +164,10 @@ class Game {
 
 ```csharp
 class Foo {
-    float	  x;
-    float  	  y;
-    float	  z;
-    Rigidbody rb;
+    float      x;
+    float      y;
+    float      z;
+    Rigidbody  rb;
 ```
 
 * Ording of class variables and methods should be as follows:
