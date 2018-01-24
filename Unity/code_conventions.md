@@ -1,8 +1,12 @@
-
-
 # Code Conventions
 
-## Generic code
+Mostly based on Doom3 code conventions:
+* http://kotaku.com/5975610/the-exceptional-beauty-of-doom-3s-source-code
+
+Other good reads on healthy coding habits:
+* https://mollyrocket.com/casey/stream_0019.html
+
+## General principles
 
 * "I hate code and i want as little of it as possible in our product" - Jack Diederich
 Don't write code. Write new code only when everything else fails.
@@ -19,7 +23,7 @@ Local code should explain, or at least hint at the overall system design.
 Comments should be avoided whenever possible. 
 Comments duplicate work when both writing and reading code. 
 If you need to comment something to make it understandable it should probably be rewritten.
-- http://kotaku.com/5975610/the-exceptional-beauty-of-doom-3s-source-code
+(Good read: http://kotaku.com/5975610/the-exceptional-beauty-of-doom-3s-source-code)
 
 * All variables/properties are public by default, private if no class outside touches it.
 Do not ever use getters/setters. They are harder to read, more lines of code, add cruft/complexity, CPU overhead.
@@ -55,33 +59,30 @@ if ( x ) {
 
 * Pad parenthesized expressions with spaces
 ```csharp
+// Like this:
 if ( x ) {
 }
-```
 
-Instead of 
-```csharp
+// Not like this:
 if (x) {
 }
 ```
 
 And
 ```csharp
+// Like this:
 x = ( y * 0.5f );
-```
 
-Instead of
-```csharp
+// Not like this:
 x = (y * 0.5f);
 ```
 
 * Use precision specification for `floating point` values unless there is an explicit need for a `double`.
 ```csharp
+// Like this:
 float f = 0.5f;
-```
 
-Instead of
-```csharp
+// Not like this:
 float f = 0.5;
 ```
 
