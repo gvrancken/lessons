@@ -54,7 +54,8 @@ if ( x ) {
 * The else statement starts on the same line as the last closing brace.
 ```csharp
 if ( x ) {
-} else { }
+} else {
+}
 ```
 
 * Pad parenthesized expressions with spaces
