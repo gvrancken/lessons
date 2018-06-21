@@ -5,7 +5,7 @@ Wanneer je een variabele declareert, moet je aangeven van welk type deze is.
 Met deze extra informatie weet de compiler hoeveel geheugen hij moet reserveren voor deze variabele,
 en hoe hij in de toekomst met deze variabele om moet gaan.
 
-NB: Alle types staan hier omschreven: https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/types-and-variables
+> NB: Alle types staan hier omschreven: https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/types-and-variables
 
 De meest voorkomende types zijn:
 
@@ -21,11 +21,11 @@ Voorbeelden:
 kort voor `floating point number`, is een komma getal
 
 Voorbeelden: 
-* `3.1415f` 
-* `1.00f`
-* `-1.68f`
+* 3.1415f 
+* 1.00f
+* -1.68f
 
-NB: In C# zetten we achter elk float datatype een `f` om het type te benadrukken.
+> NB: In C# zetten we achter elk float datatype een `f` om het type te benadrukken.
 
 ### `string`
 Een reeks van letters/cijfers.
