@@ -13,17 +13,17 @@ De meest voorkomende types zijn:
 kort voor `integer`, is een geheel getal.
 
 Voorbeelden: 
-* 42 
-* 0 
-* -111
+* `42` 
+* `0` 
+* `-111`
 
 ### `float`
 kort voor `floating point number`, is een komma getal
 
 Voorbeelden: 
-* 3.1415f 
-* 1.00f
-* -1.68f
+* `3.1415f` 
+* `1.00f`
+* `-1.68f`
 
 > NB: In C# zetten we achter elk float datatype een `f` om het type te benadrukken.
 
@@ -33,8 +33,8 @@ Omdat ze bij elkaar horen worden ze omsloten door quotes: `"`
 
 Voorbeelden:
 
-* "Hello world!"
-* "Dit is een langere zin"
+* `"Hello world!"`
+* `"Dit is een langere zin"`
 
 ### `bool`
 Kort voor Boolean (genoemd naar George Boole).
@@ -43,7 +43,7 @@ Wordt vaak gebruikt om de flow van het programma te sturen op basis van logica
 
 Voorbeelden:
 
-* false
-* 1 < 3 (vertaalt naar de waarde `true` omdat 1 kleiner is dan 3)
-* 4 == 5 (vertaalt naar de waarde `false` omdat 4 niet gelijk is aan 5)
+* `false`
+* `1 < 3` (vertaalt naar de waarde `true` omdat 1 kleiner is dan 3)
+* `4 == 5` (vertaalt naar de waarde `false` omdat 4 niet gelijk is aan 5)
 
